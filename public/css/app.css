@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Lobster&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  padding: 1rem 2rem;
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  color: aqua;
+  background-color: navy;
+}
+
+main {
+  height: 100%;
+  padding-block: 2rem;
+  background-color: darkcyan;
+}
+main .container {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+main .container .card {
+  width: calc(20% - 1rem);
+  padding: 0.8rem;
+  margin-block: 1rem;
+  color: #41dd41;
+  font-family: "Lato", sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #fff;
+}
+main .container .card h2, main .container .card h3, main .container .card h4 {
+  margin-bottom: 1rem;
+}
